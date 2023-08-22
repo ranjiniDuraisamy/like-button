@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.like-button {
+  font-size: 2rem;
+  color: #fff;
+  background-color: darkgrey;
+  padding: 1rem;
+  cursor: default;
+  border: none;
+  border-radius: 10px;
+}
+
+.liked {
+  color: blue;
+  font-weight: bold;
+}

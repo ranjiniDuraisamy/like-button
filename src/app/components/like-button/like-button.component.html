@@ -1,0 +1,9 @@
+<div class="wrapper">
+  <button
+    id="like-element"
+    [ngClass]="{ 'like-button': true, liked: isLiked }"
+    (click)="likeClicked()"
+  >
+    Like | {{ numberOfLikes }}
+  </button>
+</div>
